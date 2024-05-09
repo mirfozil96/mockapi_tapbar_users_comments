@@ -1,0 +1,40 @@
+name: mockapi_tapbar_users_comments
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.1
+  flutter_slidable: ^3.1.0
+  dio: ^5.4.3+1
+  lottie: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.2
+
+flutter:
+
+
+  uses-material-design: true
+
+
+
+  assets:
+    - assets/lotties/
